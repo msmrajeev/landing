@@ -22,6 +22,10 @@ hr {
   margin: 2.4rem 0;
 }
 
+.subscribe_link {
+  color: white;
+}
+
 .heading_secondary span:not(:last-child) {
   border-right: 2px solid #f05252;
   padding-top: 10px;
@@ -43,7 +47,7 @@ hr {
 
 .heading {
   font-size: 3.4rem;
-  line-height: 2.5rem;
+  line-height: 4.4rem;
   text-align: center;
   font-weight: 700;
   --tw-text-opacity: 1;
@@ -305,7 +309,7 @@ header {
 
   .heading {
     font-size: 3.2rem;
-    line-height: 2.2rem;
+    /* line-height: 2.2rem; */
     text-align: center;
     font-weight: 700;
     margin-bottom: 3rem;
