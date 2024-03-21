@@ -31,13 +31,6 @@ hr {
   margin-right: 10px;
 }
 
-.large-heading {
-  font-size: 4.4rem !important;
-  margin-bottom: 4.2rem !important;
-  line-height: 5.2rem !important;
-  /* margin-bottom: 0 !important; */
-}
-
 .common-padding {
   padding: 4.2rem 0rem;
   max-width: 75%;
@@ -66,6 +59,13 @@ hr {
   --tw-text-opacity: 1;
   color: rgb(241 245 249 / var(--tw-text-opacity));
   margin-bottom: 1.8rem;
+}
+
+.large-heading {
+  font-size: 4.4rem !important;
+  margin-bottom: 4.2rem !important;
+  line-height: 5.2rem !important;
+  /* margin-bottom: 0 !important; */
 }
 
 /* .heading_secondary span {
