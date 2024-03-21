@@ -25,6 +25,10 @@
         justify-content: center;
         align-items: center;
       }
+
+      .input-container {
+        margin-top: 3.4rem;
+      }
     </style>
   </head>
   <body>
@@ -46,7 +50,25 @@
       </nav>
     </header>
     <main class="main">
-      <h1 class="heading">We Are Launching Soon...</h1>
+      <div class="text-center">
+        <h1 class="heading">LAUNCHING SOON - MSM VIDEO Worldwide soon</h1>
+        <p>Get notified and be the first to hear - suscribe our news letter</p>
+        <div class="input-container">
+          <form
+            class="inner-container"
+            action="{{route('subscribe')}}"
+            method="post"
+          >
+            <input
+              name="email"
+              type="email"
+              placeholder="Email Address"
+              class="email-input"
+            />
+            <button class="button" type="submit">Subscribe Now</button>
+          </form>
+        </div>
+      </div>
     </main>
     <hr />
     <footer class="footer common-padding">
